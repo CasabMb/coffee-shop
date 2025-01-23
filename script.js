@@ -3,7 +3,6 @@ document.addEventListener("DOMContentLoaded", () => {
     let liensList = document.querySelector(".liens");
 
     icone_menu.onclick = () => {
-        console.log("Icône cliquée");
         liensList.classList.toggle("open");
     };
 });

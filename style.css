@@ -259,9 +259,11 @@ footer p {
         transform: translateX(100%); 
         z-index: 5;
         transition: transform .6s ease-in-out; 
+        visibility: hidden;
     }
     .liens.open{
         transform: translateX(0);
+        visibility: visible;
     }
     .liens a{
         display: block;
